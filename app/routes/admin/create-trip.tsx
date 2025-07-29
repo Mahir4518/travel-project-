@@ -105,7 +105,7 @@ const createTrip = ({loaderData} : Route.ComponentProps) => {
   const mapData = [
     {
       country: formData.country,
-      color: '#EA382E',
+      color: '#d14e11ff',
       coordinates: countries.find((c: Country) => c.name === formData.country)?.coordinates || [],
     }
   ]
